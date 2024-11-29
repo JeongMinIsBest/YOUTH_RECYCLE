@@ -1,4 +1,4 @@
-# The 2nd JeonBuk Youth Big Data Competition 🛒
+# The 2nd JeonBuk Youth Big Data Competition 🚮
 
 🥇 대회 명 : 제2회 전북 청년 빅데이터 경진대회 
 
