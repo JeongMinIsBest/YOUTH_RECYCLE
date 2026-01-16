@@ -1,11 +1,17 @@
 
 # Data-Driven Solutions to Municipal Waste Issues in Jeonju Using Random Forest 🚮
 > **Award-Winning Project**: 2nd Jeonbuk Youth Big Data Competition – *Woori Bank President’s Award* (Dec 2024)
+
+📊 Organizers: Jeonbuk Big Data Technology Exchange Joint Research Association,Woosuk University LINC 3.0 Project Group, Jeonbuk National University Big Data Innovation Convergence College Project Group
+  
+👩‍💻 Planning & Analysis: Minsu Kang, Gibaek Lee, Hyewon Lee, Jeongmin Lim
+  
+🗓 Project Duration: October 1, 2024 – October 4, 2024
 <br/>
 <br/>
 
 ## 1. Project Overview
-This project addresses persistent issues of improper waste separation and illegal dumping in studio-apartment areas and residential neighborhoods of Jeonju.  
+This project addresses persistent issues of improper waste separation and illegal dumping in studio-apartment areas and residential neighborhoods of Jeonju.
 By **combining administrative-district–level public data analysis with machine learning modeling**, the project identifies areas where waste problems occur most frequently and proposes a **data-driven policy intervention through the installation of ‘Recycling Stations,’ including optimal site selection for implementation**.
 
 Rather than stopping at simple prediction or visualization, this project aims to operationalize a full **policy decision-making pipeline**, consisting of:  
