@@ -15,8 +15,7 @@ This project addresses persistent issues of improper waste separation and illega
   
 By **combining administrative-district–level public data analysis with machine learning modeling**, the project identifies areas where waste problems occur most frequently and proposes a **data-driven policy intervention through the installation of ‘Recycling Stations,’ including optimal site selection for implementation**.
   
-Rather than stopping at simple prediction or visualization, this project aims to operationalize a full **policy decision-making pipeline**, consisting of:  
-**structural cause diagnosis → high-risk area identification → targeted policy intervention**.
+Rather than stopping at simple prediction or visualization, this project aims to operationalize a full **policy decision-making pipeline**, consisting of **structural cause diagnosis, high-risk area identification, targeted policy intervention**.
 <br/>
 <br/>
 
