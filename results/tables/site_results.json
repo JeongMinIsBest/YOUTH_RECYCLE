@@ -1,0 +1,142 @@
+{
+  "commercial_coverage": {
+    "dataset": "historical_2022",
+    "source_url": "https://www.data.go.kr/data/15076735/fileData.do",
+    "source_date": "2022-04-01",
+    "attachment_id": "FILE_000000002865837",
+    "download_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002865837&fileDetailSn=1&insertDataPrcus=N",
+    "sha256": "56448ddf0570ad60b4922f81084e777819df19ff1a9f16f4a66bda7bdd972db8",
+    "original_rows": 3476,
+    "eligible_rows_before_coordinates": 3149,
+    "excluded_rows": 332,
+    "unique_korean_restaurants": 3149,
+    "coordinate_matched_restaurants": 3144,
+    "unmatched_restaurants": 5,
+    "songcheon1_matched_restaurants": 260,
+    "coordinate_method": "음식점 공식 원본의 위도/경도 직접 사용; 기존 GeoJSON 경계로 행정동 분류",
+    "limitations": "원본 수록 음식점의 해당 기준일 분석; 전체 업소 완전성 또는 당시 발표 데이터와 동일함은 보장할 수 없음",
+    "all_sources": {
+      "historical_2022": {
+        "dataset": "historical_2022",
+        "source_url": "https://www.data.go.kr/data/15076735/fileData.do",
+        "source_date": "2022-04-01",
+        "attachment_id": "FILE_000000002865837",
+        "download_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002865837&fileDetailSn=1&insertDataPrcus=N",
+        "sha256": "56448ddf0570ad60b4922f81084e777819df19ff1a9f16f4a66bda7bdd972db8",
+        "original_rows": 3476,
+        "eligible_rows_before_coordinates": 3149,
+        "excluded_rows": 332,
+        "unique_korean_restaurants": 3149,
+        "coordinate_matched_restaurants": 3144,
+        "unmatched_restaurants": 5,
+        "songcheon1_matched_restaurants": 260,
+        "coordinate_method": "음식점 공식 원본의 위도/경도 직접 사용; 기존 GeoJSON 경계로 행정동 분류",
+        "limitations": "원본 수록 음식점의 해당 기준일 분석; 전체 업소 완전성 또는 당시 발표 데이터와 동일함은 보장할 수 없음"
+      },
+      "official_2025": {
+        "dataset": "official_2025",
+        "source_url": "https://www.data.go.kr/data/15076735/fileData.do",
+        "source_date": "2025-06-04",
+        "attachment_id": "FILE_000000003152097",
+        "download_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003152097&fileDetailSn=1&insertDataPrcus=N",
+        "sha256": "397c38f4d8d30ae891804a79700e168407ae7b34275c9979c3d7127ce30f3d65",
+        "original_rows": 12208,
+        "eligible_rows_before_coordinates": 12208,
+        "excluded_rows": 0,
+        "unique_korean_restaurants": 12208,
+        "coordinate_matched_restaurants": 12207,
+        "unmatched_restaurants": 0,
+        "songcheon1_matched_restaurants": 731,
+        "coordinate_method": "음식점 공식 원본의 위도/경도 직접 사용; 기존 GeoJSON 경계로 행정동 분류",
+        "limitations": "원본 수록 음식점의 해당 기준일 분석; 전체 업소 완전성 또는 당시 발표 데이터와 동일함은 보장할 수 없음"
+      }
+    },
+    "original_catalog_coordinate_enrichment": {
+      "catalog_rows": 3386,
+      "coordinates_linked": 3122,
+      "remaining_unmatched": 264,
+      "method": "2022/2025 official restaurant building addresses exact match; coordinates differing >30m rejected"
+    }
+  },
+  "sites": [
+    {
+      "dong": "송천1동",
+      "dataset": "historical_2022",
+      "source_date": "2022-04-01",
+      "layer_counts": {
+        "housing": 217,
+        "violations": 36,
+        "restaurants": 260
+      },
+      "candidate_count": 126,
+      "best_candidate": {
+        "rank": 1,
+        "행정동": "송천1동",
+        "Longitude": 127.12246377490382,
+        "Latitude": 35.86872080488681,
+        "housing_within_100m": 33,
+        "housing_normalized": 1.0,
+        "violations_within_100m": 7,
+        "violations_normalized": 1.0,
+        "restaurants_within_100m": 3,
+        "restaurants_normalized": 0.08108108108108109,
+        "score": 0.6936936936936937,
+        "nearest_building_address": "전북특별자치도 전주시 덕진구 붓내5길 9",
+        "distance_to_nearest_building_m": 16.674954699706063
+      },
+      "new_rule": "100m 반경 주택/단속/음식점 개수 각각 Min-Max 정규화 후 동일 가중치 평균",
+      "pdf_reference_comparison": {
+        "reference": "송천동2가 붓내5길~붓내3길 (PDF 결론)",
+        "reference_buildings": 29,
+        "housing_in_reference_building_bbox": 43,
+        "violations_in_reference_building_bbox": 7,
+        "restaurants_in_reference_building_bbox": 55,
+        "bounds_lonlat": [
+          [
+            127.12174721916315,
+            35.865871546647504
+          ],
+          [
+            127.12708358083685,
+            35.8697089233525
+          ]
+        ],
+        "best_candidate_inside_reference_building_bounds": true,
+        "bbox_method": "해당 도로 주소 건물들의 최소 사각 범위 + 30m; 원본 선정 영역의 복원이 아님"
+      },
+      "interpretation": "후보 비교 결과. 설치 가능 토지, 보행 접근성, 기존 시설 거리 검토는 별도로 필요. 원본 도로 선정 결과와 동일하다고 주장하지 않음."
+    },
+    {
+      "dong": "효자5동",
+      "dataset": "historical_2022",
+      "source_date": "2022-04-01",
+      "layer_counts": {
+        "housing": 1410,
+        "violations": 71,
+        "restaurants": 453
+      },
+      "candidate_count": 214,
+      "best_candidate": {
+        "rank": 1,
+        "행정동": "효자5동",
+        "Longitude": 127.09919011632482,
+        "Latitude": 35.83548329141214,
+        "housing_within_100m": 54,
+        "housing_normalized": 0.6923076923076923,
+        "violations_within_100m": 2,
+        "violations_normalized": 0.4,
+        "restaurants_within_100m": 14,
+        "restaurants_normalized": 0.358974358974359,
+        "score": 0.4837606837606838,
+        "nearest_building_address": "전북특별자치도 전주시 완산구 서곡1길 19",
+        "distance_to_nearest_building_m": 1.532587702451211
+      },
+      "new_rule": "100m 반경 주택/단속/음식점 개수 각각 Min-Max 정규화 후 동일 가중치 평균",
+      "pdf_reference_comparison": {
+        "reference": "송천동2가 붓내5길~붓내3길 (PDF 결론)",
+        "reference_buildings": 0
+      },
+      "interpretation": "후보 비교 결과. 설치 가능 토지, 보행 접근성, 기존 시설 거리 검토는 별도로 필요. 원본 도로 선정 결과와 동일하다고 주장하지 않음."
+    }
+  ]
+}

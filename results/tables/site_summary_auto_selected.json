@@ -1,0 +1,32 @@
+{
+  "dong": "효자5동",
+  "dataset": "historical_2022",
+  "source_date": "2022-04-01",
+  "layer_counts": {
+    "housing": 1410,
+    "violations": 71,
+    "restaurants": 453
+  },
+  "candidate_count": 214,
+  "best_candidate": {
+    "rank": 1,
+    "행정동": "효자5동",
+    "Longitude": 127.09919011632482,
+    "Latitude": 35.83548329141214,
+    "housing_within_100m": 54,
+    "housing_normalized": 0.6923076923076923,
+    "violations_within_100m": 2,
+    "violations_normalized": 0.4,
+    "restaurants_within_100m": 14,
+    "restaurants_normalized": 0.358974358974359,
+    "score": 0.4837606837606838,
+    "nearest_building_address": "전북특별자치도 전주시 완산구 서곡1길 19",
+    "distance_to_nearest_building_m": 1.532587702451211
+  },
+  "new_rule": "100m 반경 주택/단속/음식점 개수 각각 Min-Max 정규화 후 동일 가중치 평균",
+  "pdf_reference_comparison": {
+    "reference": "송천동2가 붓내5길~붓내3길 (PDF 결론)",
+    "reference_buildings": 0
+  },
+  "interpretation": "후보 비교 결과. 설치 가능 토지, 보행 접근성, 기존 시설 거리 검토는 별도로 필요. 원본 도로 선정 결과와 동일하다고 주장하지 않음."
+}

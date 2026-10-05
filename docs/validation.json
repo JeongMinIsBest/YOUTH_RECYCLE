@@ -1,0 +1,54 @@
+{
+  "notebooks": [
+    {
+      "notebook": "01_commercial_preprocessing.ipynb",
+      "code_cells": 11,
+      "status": "passed",
+      "independent_process": true
+    },
+    {
+      "notebook": "02_model_training.ipynb",
+      "code_cells": 9,
+      "status": "passed",
+      "independent_process": true
+    },
+    {
+      "notebook": "03_merge_normalize.ipynb",
+      "code_cells": 10,
+      "status": "passed",
+      "independent_process": true
+    },
+    {
+      "notebook": "04_eda_pca.ipynb",
+      "code_cells": 12,
+      "status": "passed",
+      "independent_process": true
+    },
+    {
+      "notebook": "05_clustering.ipynb",
+      "code_cells": 11,
+      "status": "passed",
+      "independent_process": true
+    },
+    {
+      "notebook": "06_site_selection.ipynb",
+      "code_cells": 15,
+      "status": "passed",
+      "independent_process": true
+    }
+  ],
+  "method": "actual code cells executed sequentially in a separate Python process per notebook; rich outputs captured",
+  "local_links": "passed",
+  "presentation_files": "excluded",
+  "run_all": "excluded",
+  "map_background_fix": {
+    "provider": "OpenStreetMap France / HOT",
+    "maps_regenerated": 7,
+    "notebooks_rerun": [
+      "04_eda_pca.ipynb",
+      "06_site_selection.ipynb"
+    ],
+    "tile_check": "HTTP 200 and actual Jeonju streets visually confirmed; no placeholder message",
+    "browser_render_test": "not performed"
+  }
+}

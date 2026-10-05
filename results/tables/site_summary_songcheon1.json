@@ -1,0 +1,47 @@
+{
+  "dong": "송천1동",
+  "dataset": "historical_2022",
+  "source_date": "2022-04-01",
+  "layer_counts": {
+    "housing": 217,
+    "violations": 36,
+    "restaurants": 260
+  },
+  "candidate_count": 126,
+  "best_candidate": {
+    "rank": 1,
+    "행정동": "송천1동",
+    "Longitude": 127.12246377490382,
+    "Latitude": 35.86872080488681,
+    "housing_within_100m": 33,
+    "housing_normalized": 1.0,
+    "violations_within_100m": 7,
+    "violations_normalized": 1.0,
+    "restaurants_within_100m": 3,
+    "restaurants_normalized": 0.08108108108108109,
+    "score": 0.6936936936936937,
+    "nearest_building_address": "전북특별자치도 전주시 덕진구 붓내5길 9",
+    "distance_to_nearest_building_m": 16.674954699706063
+  },
+  "new_rule": "100m 반경 주택/단속/음식점 개수 각각 Min-Max 정규화 후 동일 가중치 평균",
+  "pdf_reference_comparison": {
+    "reference": "송천동2가 붓내5길~붓내3길 (PDF 결론)",
+    "reference_buildings": 29,
+    "housing_in_reference_building_bbox": 43,
+    "violations_in_reference_building_bbox": 7,
+    "restaurants_in_reference_building_bbox": 55,
+    "bounds_lonlat": [
+      [
+        127.12174721916315,
+        35.865871546647504
+      ],
+      [
+        127.12708358083685,
+        35.8697089233525
+      ]
+    ],
+    "best_candidate_inside_reference_building_bounds": true,
+    "bbox_method": "해당 도로 주소 건물들의 최소 사각 범위 + 30m; 원본 선정 영역의 복원이 아님"
+  },
+  "interpretation": "후보 비교 결과. 설치 가능 토지, 보행 접근성, 기존 시설 거리 검토는 별도로 필요. 원본 도로 선정 결과와 동일하다고 주장하지 않음."
+}

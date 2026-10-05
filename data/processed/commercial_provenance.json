@@ -1,0 +1,59 @@
+{
+  "dataset": "historical_2022",
+  "source_url": "https://www.data.go.kr/data/15076735/fileData.do",
+  "source_date": "2022-04-01",
+  "attachment_id": "FILE_000000002865837",
+  "download_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002865837&fileDetailSn=1&insertDataPrcus=N",
+  "sha256": "56448ddf0570ad60b4922f81084e777819df19ff1a9f16f4a66bda7bdd972db8",
+  "original_rows": 3476,
+  "eligible_rows_before_coordinates": 3149,
+  "excluded_rows": 332,
+  "unique_korean_restaurants": 3149,
+  "coordinate_matched_restaurants": 3144,
+  "unmatched_restaurants": 5,
+  "songcheon1_matched_restaurants": 260,
+  "coordinate_method": "음식점 공식 원본의 위도/경도 직접 사용; 기존 GeoJSON 경계로 행정동 분류",
+  "limitations": "원본 수록 음식점의 해당 기준일 분석; 전체 업소 완전성 또는 당시 발표 데이터와 동일함은 보장할 수 없음",
+  "all_sources": {
+    "historical_2022": {
+      "dataset": "historical_2022",
+      "source_url": "https://www.data.go.kr/data/15076735/fileData.do",
+      "source_date": "2022-04-01",
+      "attachment_id": "FILE_000000002865837",
+      "download_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002865837&fileDetailSn=1&insertDataPrcus=N",
+      "sha256": "56448ddf0570ad60b4922f81084e777819df19ff1a9f16f4a66bda7bdd972db8",
+      "original_rows": 3476,
+      "eligible_rows_before_coordinates": 3149,
+      "excluded_rows": 332,
+      "unique_korean_restaurants": 3149,
+      "coordinate_matched_restaurants": 3144,
+      "unmatched_restaurants": 5,
+      "songcheon1_matched_restaurants": 260,
+      "coordinate_method": "음식점 공식 원본의 위도/경도 직접 사용; 기존 GeoJSON 경계로 행정동 분류",
+      "limitations": "원본 수록 음식점의 해당 기준일 분석; 전체 업소 완전성 또는 당시 발표 데이터와 동일함은 보장할 수 없음"
+    },
+    "official_2025": {
+      "dataset": "official_2025",
+      "source_url": "https://www.data.go.kr/data/15076735/fileData.do",
+      "source_date": "2025-06-04",
+      "attachment_id": "FILE_000000003152097",
+      "download_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003152097&fileDetailSn=1&insertDataPrcus=N",
+      "sha256": "397c38f4d8d30ae891804a79700e168407ae7b34275c9979c3d7127ce30f3d65",
+      "original_rows": 12208,
+      "eligible_rows_before_coordinates": 12208,
+      "excluded_rows": 0,
+      "unique_korean_restaurants": 12208,
+      "coordinate_matched_restaurants": 12207,
+      "unmatched_restaurants": 0,
+      "songcheon1_matched_restaurants": 731,
+      "coordinate_method": "음식점 공식 원본의 위도/경도 직접 사용; 기존 GeoJSON 경계로 행정동 분류",
+      "limitations": "원본 수록 음식점의 해당 기준일 분석; 전체 업소 완전성 또는 당시 발표 데이터와 동일함은 보장할 수 없음"
+    }
+  },
+  "original_catalog_coordinate_enrichment": {
+    "catalog_rows": 3386,
+    "coordinates_linked": 3122,
+    "remaining_unmatched": 264,
+    "method": "2022/2025 official restaurant building addresses exact match; coordinates differing >30m rejected"
+  }
+}

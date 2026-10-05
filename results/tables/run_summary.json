@@ -1,0 +1,10 @@
+{
+  "selected_cluster": 1,
+  "top_dong": "효자5동",
+  "selection_rule": "K-medoids 군집별 동일 가중치 평균 점수; 원본 규칙 아님",
+  "pdf_target_dong": "송천1동",
+  "pdf_target_is_model_choice": false,
+  "prediction_source": "saved",
+  "counts_source": "saved",
+  "outliers_removed": false
+}
